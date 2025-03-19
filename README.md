@@ -1,66 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Tutorials amb Català
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aquest projecte té com a objectiu desenvolupar una pàgina web que permeti als usuaris accedir a tutorials de reparació de dispositius electrònics, com ara mòbils i càmeres de fotografia, en català. Per aconseguir-ho, s'ha utilitzat el framework Laravel i s'ha integrat l'API de iFixit per importar i traduir els tutorials de manera automàtica.
 
-## About Laravel
+## ✨ Característiques Principals
+- Aplicació web desenvolupada amb Laravel per gestionar tutorials de reparació.
+- Importació automàtica de tutorials des de l'API de iFixit.
+- Traducció automàtica dels tutorials al català per facilitar-ne la comprensió.
+- Interfície web intuïtiva per cercar i consultar tutorials.
+- Optimització per SEO i integració d'eines analítiques.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📝 Objectius del Projecte
+1. **Desenvolupar una aplicació web** amb Laravel per gestionar tutorials de reparació.
+2. **Integrar l'API de iFixit** per obtenir i emmagatzemar tutorials en la base de dades.
+3. **Traduir automàticament els tutorials** per oferir contingut en català.
+4. **Dissenyar una interfície web** per a una navegació fàcil i eficient.
+5. **Optimitzar el SEO** i integrar eines com Google Analytics per analitzar el trànsit.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🛠️ Integració amb l'API de iFixit
+- Connexió amb l'API oficial de iFixit per obtenir tutorials de reparació.
+- Processament i emmagatzematge de la informació dels passos, imatges, etc.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**API de referència:** [iFixit API v2.0](https://www.ifixit.com/api/v2)
 
-## Learning Laravel
+## 🎮 Traducció Automàtica
+- Traducció automàtica dels tutorials en anglès al català mitjançant una API o llibreria.
+- Possibilitat de traduir articles un per un o en bloc.
+- Opcionalment, revisió manual de les traduccions per millorar la qualitat.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Llibreria recomanada:** [google-translate-php](https://github.com/Stichoza/google-translate-php)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🌐 Desenvolupament de la Interfície Web
+- Sistema de cerca i filtratge de tutorials.
+- Pàgina estructurada per consultar els passos de reparació.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 👨‍💻 SEO i Analítica Web
+- **SEO On-page**: optimització de metadades, encapçalaments, URLs amigables i OpenGraph.
+- **Indexació**: configuració de `robots.txt` i `sitemaps.xml` per millorar la visibilitat en cercadors.
+- **Analítica web**: integració de Google Analytics i Google Search Console.
+- **Optimització de rendiment**: millora de la velocitat de càrrega i optimització d'imatges.
